@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Single thread
 
 import gc
 import os
