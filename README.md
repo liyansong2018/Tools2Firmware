@@ -1,4 +1,14 @@
-固件逆向中常用的小工具
+
+
+# prebuilt_static_bins
+一些有用的可执行文件（通过muslibc或uClibc静态链接），用于不同架构的嵌入式设备。
+- gawk  
+- gdbserver  
+- lsof  
+- mawk
+- tcpdump  
+- tsh
+
 # addelfinfo-arm32.py
 根据glibc中的ELF定义，为原始的固件增加ELF头和节表。
 
