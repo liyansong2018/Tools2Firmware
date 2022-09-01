@@ -48,7 +48,7 @@ def addelfinfo():
 			fn.write("\x07\x00\x00\x00")	# sh_flags
 			fn.write(struct.pack("<I", base_address))	# sh_addr
 			fn.write("\x90\x00\x00\x00")	# sh_offset
-			fn.write(struct.pack("<I", (base_address + 0xfff) & 0xfffff000))	# sh_size
+			fn.write(struct.pack("<I", file_length))	# sh_size
 			fn.write("\x00\x00\x00\x00")	# sh_link
 			fn.write("\x00\x00\x00\x00")	# sh_info
 			fn.write("\x01\x00\x00\x00")	# sh_addralign
