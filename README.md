@@ -14,6 +14,8 @@ addelfinfo-arm32.py 根据glibc中的ELF定义，为原始的固件增加ELF头�
 
 用法：python addelfinfo-arm32.py <little|big endian> <filename> <base_address>
 
+推荐使用新工具：[elfspirit](https://github.com/liyansong2018/elfspirit)
+
 ## 基地址搜索
 
 ~~basefind.py 暴力搜索二进制加载的起始地址，单线程，速度慢，[@mncoppola's](https://github.com/mncoppola) [basefind.py](https://github.com/mncoppola/ws30/blob/master/basefind.py) & [@rsaxvc's](https://github.com/rsaxvc) [basefind.cpp](https://github.com/mncoppola/ws30/blob/master/basefind.cpp)~~
