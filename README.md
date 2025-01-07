@@ -16,11 +16,13 @@
 - 推荐使用新工具：[binbloom](https://github.com/quarkslab/binbloom)
 
 ## 固件修复
-### 添加elf信息
+
+添加elf信息
+
 - `addelfinfo-arm32.py` 根据glibc中的ELF定义，为原始的固件增加ELF头和节表。方便IDA直接识别。
 - 推荐使用新工具：[elfspirit](https://github.com/liyansong2018/elfspirit)
 
-### Bare-Meta
+Bare-Meta(裸机程序)
 
 - [SVD-Loader-Ghidra](https://github.com/leveldown-security/SVD-Loader-Ghidra)自动加载内存映射寄存器表的Ghidra插件，针对CotexM系列芯片
 - [Reverse Engineering Radios – ARM Binary Images in IDA Pro](https://do1alx.de/2022/reverse-engineering-radios-arm-binary-images-in-ida-pro/)
@@ -28,7 +30,7 @@
 
 ## 仿真
 
-Bare-Meta(裸机程序)
+Bare-Meta or Cortex M3/4
 
 - [SHiFT](https://github.com/RiS3-Lab/SHiFT)
 - [MultiFuzz](https://github.com/MultiFuzz/MultiFuzz)
